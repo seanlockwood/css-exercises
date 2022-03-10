@@ -23,7 +23,7 @@ body {
 }
 
 .icon {
-  color: royalblue;
+  color: royalblue; 
   font-size: 26px;
   font-weight: 700;
   background: lavender;
@@ -63,4 +63,40 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  gap: 16px;
+  padding: 16px;
+  display: flex;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+body {
+  padding: 12px;
+}
+
+.container {
+
+}
+
+.text {
+  margin-bottom: 32px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  border: 10px;
+}
+
+.close-button {
+  flex-shrink: 0;
 }
